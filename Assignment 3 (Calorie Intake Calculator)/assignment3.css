@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.block{
+    display: block;;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+p{
+    margin: 0.5px;
+}
+
+body{
+    background-image: linear-gradient(180deg, #92cd2c,#ffff00);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #f0f0f0;
+}
+
+button{
+    cursor: pointer;
+    background-color: #92cd2c;
+    color: #000000;
+}
+
+
+
