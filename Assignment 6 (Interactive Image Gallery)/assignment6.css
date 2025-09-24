@@ -1,0 +1,149 @@
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html, body, div, h1, h2, p, img, footer, header, section {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+body {
+   line-height: 1;
+   width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+body > header {
+   background: #5472B2;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+   margin-bottom: 0;
+}
+
+section {
+   background-color: #c441b0;
+   margin-top: 0;
+   padding-top: 20px;
+   padding-bottom: 60px;
+}
+
+section > h1 {
+   text-align: center;
+   font-size: 3.3em;
+   font-family: "sans-serif";
+   letter-spacing: 0.1em;
+   margin-bottom: 20px;
+   color: rgba(255, 255, 255, 0.823);
+}
+
+div#slides {
+   width: 400px;
+   height: 300px;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   border: 1px solid black;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+
+div#slidebox {
+   width: 800px;
+   height: auto;
+   margin: 0 auto;
+   position: relative;
+}
+
+div#slidebox img#leftbutton, div#slidebox img#rightbutton {
+   position: absolute;
+   width: 60px;
+   cursor: pointer;
+   filter: drop-shadow(8px 0px 2px rgba(0,0,0, 1))  
+}
+
+div#slidebox img#leftbutton {
+   top: 100px;
+   left: 120px;  
+}
+
+div#slidebox img#rightbutton {
+   top: 100px;
+   left: 620px;  
+}
+
+div#slides > img {
+   width: 400px;
+   position: absolute;
+   top: 0px;
+}
+
+div#slides {
+   width: 400px;
+   height: 300px;
+   margin: 0 auto;
+   overflow:hidden;
+   position: relative;
+   border: 1px solid black;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+ 
+div#caption {
+   width: 80%;
+   background-color: rgba(255, 255, 255, 0.3);
+   margin: 20px auto;
+   text-align: center;
+   font-size: 1.3em;
+   line-height: 1.5em;  
+}
+
+footer{
+   background: #5472B2;
+   text-align: center;
+   color: #FFFFFF;
+   padding: 10px;
+   font-family: sans-serif;
+}
+
+.slideImages {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: none;
+}
+
+#updateButton{
+background-color: #5472B2;
+color: white;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+padding: 5px 10px;
+}
+
+#updateButton:hover{
+background-color: #3e5a8c;
+color: white;
+}
+
+#imageListInput{
+color: white;
+cursor: pointer;
+border: none;
+margin: 0;
+padding: 0;
+width: 20%;
+}
