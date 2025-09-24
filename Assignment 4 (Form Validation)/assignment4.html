@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="assignment4.css">
+    <script src="assignment4.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Assignment 4 - Form Validation</h1>
+    </header>
+    <main>
+        <form id="registrationForm" onsubmit="return formValidation()">
+            <fieldset>
+                <legend>Member Registration</legend>
+
+                <label for="firstname">Firstname:</label>
+                <input type="text" name="firstname" id="firstname" required>
+
+                <label for="lastname">Lastname:</label>
+                <input type="text" name="lastname" id="lastname" required>
+
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" required>
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city" required>
+
+                <label for="postalcode">Postal Code:</label>
+                <input type="text" name="postalcode" id="postalcode" required>
+
+                <label for="province">Province:</label>
+                <input type="text" name="province" id="province" list="provinceList" required>
+                <datalist id="provinceList">
+                    <option value="QC">QC</option>
+                    <option value="ON">ON</option>
+                    <option value="MN">MN</option>
+                    <option value="SK">SK</option>
+                    <option value="AB">AB</option>
+                    <option value="BC">BC</option>
+                </datalist>
+
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="18" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="password" name="confirmpassword" id="confirmpassword" required>
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+
+                <br>
+            
+                <button type="submit" id="submit">Register Now</button>
+                <button type="reset" id="reset">Clear Form</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p> &copy; Copyright 2025 Brandon Argenal Almanza, 301467830</p>
+    </footer>
+</body>
+</html>

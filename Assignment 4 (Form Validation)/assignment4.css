@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    height: 95vh;
+    box-shadow: #c735d1 0px 0px 100px;
+}
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+}
+
+form{
+    box-shadow: #c735d1 0px 0px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 25%;
+}
+
+button{
+    background-color: #16d716;
+    margin-top: 10px;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+}
+
+button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #289528;
+}
+
